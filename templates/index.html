@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cancer_Detection</title>
+    <style>
+     .navstyle {
+margin-bottom: 2px;
+
+
+padding: 1px;
+border: 2px solid black;
+background-color: antiquewhite;
+
+     }
+.name{
+      
+      text-align: center;
+      padding: 2px;
+      text-decoration: solid;
+color: #000;
+}
+
+    </style>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  </head>
+  <body>
+      <nav class="navstyle">
+            <div class="name">
+        <h1>Lung Cancer Detection</h1> 
+                  </div>
+                  </nav>
+   <h3>Answer the following questions for predict</h3>
+    <div class="mb-4 mt-4">
+    <form action="output" >
+  <label for="gender">Enter Gender (1 for Male & 2 for Female) :  </label>
+<input type="number" id="gender" name="gender" required min="1" max="2">
+      <br>
+      <label for="age">Enter your Age </label>
+<input type="number" id="age" name="age" required min="1" max="90" >
+      <br>
+      <label for="smoking">Do You Smoke ? (2 for 'Yes' & 1 for 'No')</label>
+      <input type="number" id="smoking" name="smoking" required min="1" max="2" >
+      <br>
+      <label for="yellowfingers"> Does Your Fingers has Yellow colored? (2 for 'Yes' & 1 for 'No')</label>
+<input type="number" id="yellowfingers" name="yellowfingers" required min="1" max="2">
+      <br>
+      <label for="anxiety">Are you suffering from anxiety ? (2 for 'Yes' & 1 for 'No'):</label>
+<input type="number" id="anxiety" name="anxiety" required min="1" max="2" >
+      <br>
+      <label for="peerpressure">Do you have any peer pressure ?(2 for 'Yes' & 1 for 'No'):</label>
+<input type="number" id="peerpressure" name="peerpressure"  required min="1" max="2">
+<br>
+      <label for="chronicdisease">Do you have any Chronic Disease? (2 for 'Yes' & 1 for 'No') :</label>
+<input type="number" id="chronicdisease" name="chronicdisease"  required min="1" max="2">
+      <br>
+      <label for="fatigue">Does you faced Fatigue ? (2 for 'Yes' & 1 for 'No'):</label>
+<input type="number" id="fatigue" name="fatigue" required min="1" max="2">
+      <br>
+      <label for="allergy">are you having any type of Allergy ? (2 for 'Yes' & 1 for 'No'):</label>
+<input type="number" id="allergy" name="allergy" required min="1" max="2" >
+      <br>
+      <label for="wheezing"> Does your nose or throat wheezing ? (2 for 'Yes' & 1 for 'No'):</label>
+<input type="number" id="wheezing" name="wheezing" required min="1" max="2">
+      <br>
+      <label for="alcoholconsuming"> Do you Consume Alcohol? (2 for 'Yes' & 1 for 'No'):</label>
+<input type="number" id="alcoholconsuming" name="alcoholconsuming"  required min="1" max="2">
+      <br>
+      <label for="coughing">Have you Coughing ? (2 for 'Yes' & 1 for 'No'):</label>
+<input type="number" id="coughing" name="coughing" required min="1" max="2" >
+      <br>
+       <label for="shortnessofbreath">are you having shortness of breathing? (2 for 'Yes' & 1 for 'No'):</label>
+      <input type="number" id="shortnessofbreath" name="shortnessofbreath" required min="1" max="2" >
+      <br>
+       <label for="swallowingdifficulty">Are you having any difficulty while swallowing? (2 for 'Yes' & 1 for 'No'):</label>
+      <input type="number" id="swallowingdifficulty" name="swallowingdifficulty"  required min="1" max="2">
+      <br>
+        <label for="chestpain">do you have pain in chest? (2 for 'Yes' & 1 for 'No'):</label>
+      <input type="number" id="chestpain" name="chestpain"  required min="1" max="2">
+      <br>
+  <!-- Submit button -->
+  <button type="submit" class="btn btn-primary btn-block m-4">Detect</button>
+</form>
+    </div>
+    <footer class="navstyle" >
+<span  class="name">
+      Developed by : ** Er.Dev bhise **
+     ** NOT FOR COMMERCIAL USE **
+</span>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+  </body>
+</html>
